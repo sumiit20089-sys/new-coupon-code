@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Discounts & Savings | DemoCoupons</title>
+    <meta name="description" content="Find exclusive senior citizen discounts, promotional offers, and special savings.">
+    <meta name="keywords" content="senior discounts, aarp discounts, senior coupons, savings for seniors">
+    <link rel="canonical" href="https://example.com/senior-discounts.html">
+    <meta property="og:title" content="Senior Discounts - DemoCoupons">
+    <meta property="og:type" content="website">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                Demo<span>Coupons</span>
+            </a>
+            <nav>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+                <div class="nav-links" id="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="coupons.html">Coupons</a>
+                    <a href="senior-discounts.html" class="active">Senior Discounts</a>
+                    <a href="categories.html">Categories</a>
+                    <a href="about.html">About</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Header Section -->
+        <section class="hero" style="background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%); padding: 4rem 0;">
+            <div class="container">
+                <h1>Extra Savings for Seniors</h1>
+                <p style="max-width: 800px;">Discover exclusive senior discounts, coupons, and special offers. Many retailers offer special savings for customers aged 55, 60, or 65 and older.</p>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="grid grid-cols-3" style="margin-bottom: 3rem; gap: 2rem;">
+                <div style="grid-column: span 2;">
+                    <h2 class="mb-4">Available Senior Coupons</h2>
+                    <div id="senior-coupons" class="grid grid-cols-2">
+                        <!-- Dynamically populated by JS -->
+                    </div>
+                </div>
+                
+                <div>
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); position: sticky; top: 90px;">
+                        <h3 class="mb-4">Important Information</h3>
+                        <div class="mb-4">
+                            <h4 style="font-size: 1rem;">Eligibility</h4>
+                            <p class="text-muted" style="font-size: 0.875rem;">Age requirements vary by retailer. Some start at 50 (with AARP), while others require you to be 55, 60, or 65+. Always check the specific store's policy.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 style="font-size: 1rem;">Verification</h4>
+                            <p class="text-muted" style="font-size: 0.875rem;">You may need to show a valid ID or membership card (like AARP) to redeem these offers in-store, or verify through a third-party service online.</p>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 1rem;">Disclaimer</h4>
+                            <p class="text-muted" style="font-size: 0.875rem;">We do not guarantee that every retailer provides a senior discount. Eligibility and availability depend entirely on the individual retailer and may change without notice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div style="background: var(--bg-card); padding: 3rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color);">
+                <h2 class="mb-8 text-center">Frequently Asked Questions</h2>
+                
+                <div class="mb-4">
+                    <h4>Do all stores offer senior discounts?</h4>
+                    <p class="text-muted">No, not all stores offer senior discounts. However, many grocery stores, restaurants, travel companies, and pharmacies do. It is always a good idea to ask!</p>
+                </div>
+                
+                <div class="mb-4">
+                    <h4>How do I claim a senior discount online?</h4>
+                    <p class="text-muted">Some online retailers have a verification process during checkout (such as ID.me). Others simply provide a promo code that you can apply, like the ones listed on this page.</p>
+                </div>
+                
+                <div>
+                    <h4>Can I stack a senior discount with other coupons?</h4>
+                    <p class="text-muted">Usually, retailers do not allow you to stack a senior discount with other promotional codes or clearance items, but store policies vary.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white; margin-bottom: 1rem;">
+                        Demo<span style="color: var(--secondary-color);">Coupons</span>
+                    </a>
+                    <p style="color: #9ca3af; font-size: 0.875rem;">Your trusted source for the best coupon codes, promotional offers, and special savings from popular US retailers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="coupons.html">All Coupons</a></li>
+                        <li><a href="senior-discounts.html">Senior Discounts</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DemoCoupons. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Coupons & Promo Codes | DemoCoupons</title>
+    <meta name="description" content="Browse our complete list of active coupon codes and discounts from top US retailers.">
+    <meta name="keywords" content="all coupons, promo codes list, discounts, savings">
+    <link rel="canonical" href="https://example.com/coupons.html">
+    <meta property="og:title" content="All Coupons - DemoCoupons">
+    <meta property="og:type" content="website">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
+                Demo<span>Coupons</span>
+            </a>
+            <nav>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+                <div class="nav-links" id="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="coupons.html" class="active">Coupons</a>
+                    <a href="senior-discounts.html">Senior Discounts</a>
+                    <a href="categories.html">Categories</a>
+                    <a href="about.html">About</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top: 3rem; padding-bottom: 3rem;">
+        <h1 class="mb-2">All Coupons & Offers</h1>
+        <p class="text-muted mb-8" id="coupon-count">Loading active coupons...</p>
+
+        <!-- Filters Bar -->
+        <div class="filters-bar">
+            <div>
+                <label for="search-input" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Search</label>
+                <input type="text" id="search-input" class="form-control" placeholder="Search coupons...">
+            </div>
+            <div>
+                <label for="category-filter" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Category</label>
+                <select id="category-filter" class="form-control">
+                    <option value="all">All Categories</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Food">Food</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Home">Home</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Grocery">Grocery</option>
+                    <option value="Health & Wellness">Health & Wellness</option>
+                    <option value="Automotive">Automotive</option>
+                </select>
+            </div>
+            <div>
+                <label for="sort-filter" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Sort By</label>
+                <select id="sort-filter" class="form-control">
+                    <option value="highest">Highest Discount</option>
+                    <option value="newest">Newest First</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Coupon Grid -->
+        <div id="all-coupons" class="grid grid-cols-3">
+            <!-- Dynamically populated by JS -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="color: white; margin-bottom: 1rem;">
+                        Demo<span style="color: var(--secondary-color);">Coupons</span>
+                    </a>
+                    <p style="color: #9ca3af; font-size: 0.875rem;">Your trusted source for the best coupon codes, promotional offers, and special savings from popular US retailers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="coupons.html">All Coupons</a></li>
+                        <li><a href="senior-discounts.html">Senior Discounts</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DemoCoupons. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
